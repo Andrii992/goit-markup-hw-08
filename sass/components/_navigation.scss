@@ -1,0 +1,35 @@
+.list-navigation {
+    display: flex;
+    &__link {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: #212121;
+            text-decoration: none;
+            display: inline-block;
+    
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    &__item {
+        position: relative;
+        }
+    &--style-none {
+        list-style: none;
+    }
+}
+
+.list-navigation__item {
+    &:not(:last-child) {
+            margin-right: 50px;
+        }
+}
+
+.list-navigation__link {
+    &:focus,
+    &:hover {
+            color: var(--accent-color);
+        }
+}

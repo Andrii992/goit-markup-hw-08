@@ -1,0 +1,22 @@
+.portfolio .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.button-menu {
+    margin-right: 8px;
+}
+
+.menu .button-menu {
+    &:last-child {
+            margin-right: 0;
+        }
+}
+
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+

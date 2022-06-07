@@ -1,0 +1,32 @@
+@import "./base/base-styles";
+@import "./base/elements";
+@import "./base/container";
+@import "./base/list-style";
+@import "./utils/variables";
+
+@import "./utils/is-hidden";
+
+
+@import "./components/WebStudio";
+@import "./components/page-header";
+@import "./components/navigation";
+@import "./components/contacts";
+@import "./components/hero";
+@import "./components/section-works";
+
+
+@import "./components/button";
+@import "./components/modal";
+@import "./components/join";
+
+
+@import "./components/team";
+@import "./components/section-clients";
+@import "./components/benefits";
+@import "./components/address";
+@import "./components/page-footer";
+@import "./components/subscription";
+
+@import "./components/portfolio-menu";
+@import "./components/projects-action";
+@import "./components/projects";
